@@ -1,0 +1,78 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.logo {
+  /*font-family: 'Courgette', cursive;*/
+  font-family: 'Amatic SC', cursive;
+  font-size: 6em;
+  color: rgb(0, 112, 255);
+  text-align: center;
+}
+
+.logo-subtext {
+  font-size: 1.15em;
+  font-weight: 100;
+  text-align: center;
+}
+
+.logo-container {
+  float: left;
+}
+
+nav {
+  overflow: hidden;
+}
+
+.navigation {
+  font-weight: 300;
+  margin: 1em 1em 0 0;
+  float: right;
+}
+
+.navigation li {
+  margin: 0 0 0 1em;
+  display: inline;
+  list-style-type: none;
+}
+
+.navigation li a {
+  color: rgb(0, 112, 255);
+  text-decoration: none;
+}
+
+.navigation li a:hover {
+  color: rgb(0, 100, 230);
+}
+
+main {
+  padding: 2em 0 0 0;
+  clear: both;
+}
+
+.intro {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+.intro p+p {
+  font-size: 0.65em;
+}
+
+.links-section p {
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+  margin: 2em 0 0 0;
+}
+
+.links-section p a {
+  color: rgb(0, 112, 255);
+  text-decoration: none;
+  font-size: 3em;
+}
