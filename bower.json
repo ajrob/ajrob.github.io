@@ -1,0 +1,20 @@
+{
+  "name": "ajrob.github.io",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ajrob/ajrob.github.io",
+  "authors": [
+    "ajrob <ajrob.dev@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.23",
+    "angular-ui-router": "~0.2.11"
+  }
+}
