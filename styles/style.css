@@ -1,3 +1,11 @@
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(0, 112, 255);
+}
+
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -75,6 +83,11 @@ main {
   color: rgb(0, 112, 255);
   text-decoration: none;
   font-size: 3em;
+}
+
+.project {
+  text-align: center;
+  margin: 3em 0;
 }
 
 @media screen and (max-width: 992px) {
