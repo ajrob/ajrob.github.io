@@ -90,6 +90,10 @@ main {
   margin: 3em 0;
 }
 
+.screenshot {
+  max-width: 100%;
+}
+
 @media screen and (max-width: 992px) {
   .logo {
     font-size: 4em;
